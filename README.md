@@ -6,11 +6,7 @@ Notes on setting up a live EL demo are in [live-demo-setup-notes.md](live-demo-s
 
 EL images used in the poster are in the [images](images) folder. Metadata for the images are in the table below.
 
-Images were catured with commands like the following:
 
-```bash
-libcamera-still --awbgains 1,1 --gain 2 --shutter 1500000 -r -n -o picture_16.jpg
-```
 
 | Image File | Camera | Exposure Time (s) | Gain | Note |
 | --- | --- | --- | --- | --- |
