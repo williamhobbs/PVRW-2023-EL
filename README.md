@@ -2,6 +2,8 @@
 
 This repo contains supporting files for the NREL PVRW 2023 poster, _EL with the Raspberry Pi Camera Module 3_, by Will Hobbs and Tim Silverman. 
 
+Notes on setting up a live EL demo are in [live-demo-setup-notes.md](live-demo-setup-notes.md).
+
 EL images used in the poster are in the [images](images) folder. Metadata for the images are in the table below.
 
 | Image File | Camera | Exposure Time (s) | Gain | Note |
