@@ -1,4 +1,4 @@
-## Notes on setting thing sup for the live demo
+## Notes on setting things up for the live demo
 Start with standard 32-bit OS (tested with Raspbian GNU/Linux 11 (bullseye)).
 
 Enable SSH and add Wi-Fi credentials using the Raspeberry Pi Imager settings. You can also set a custom hostname and skip that step later (e.g., `elpi` to connect via `elpi.local`).
