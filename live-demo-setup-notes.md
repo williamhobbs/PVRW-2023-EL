@@ -1,5 +1,9 @@
-## Notes on setting things up for the live demo
-Start with standard 32-bit OS (tested with Raspbian GNU/Linux 11 (bullseye)).
+# Notes on setting things up for the live demo
+The poster presentation included a live demo of EL of two small 2-10 W modules. A laptop connect to a Raspberry Pi Zero 2 W using remote desktop for control and display.
+
+![live demo setup photo](/images/live_demo_setup_photo2.jpg)
+
+Start with the standard 32-bit Raspberry OS (tested with Raspbian GNU/Linux 11 (bullseye)).
 
 Enable SSH and add Wi-Fi credentials using the Raspeberry Pi Imager settings. You can also set a custom hostname and skip that step later (e.g., `elpi` to connect via `elpi.local`).
 
