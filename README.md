@@ -29,6 +29,8 @@ libcamera-still --awbgains 1,1 --gain 2 --shutter 1500000 -r -n -o picture_16.jp
 ```
 
 ## Hardware used
+This was built around a Raspberry Pi Zero 2 W (https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) and the Camera Module 3 NoIR (https://www.raspberrypi.com/products/camera-module-3/?variant=camera-module-3-noir) with an Adrucam Pi Zero camera cable (https://www.amazon.com/dp/B085RW9K13). 
+
 ### Filters
 Filters similar to the following were used:
 - https://www.newport.com/p/10CGA-1000 
@@ -43,3 +45,18 @@ The case used for the Pi Zero 2 W and camera was based on https://www.thingivers
 The live demo used:
 - Newpowa 5W mono module, https://www.amazon.com/gp/product/B00L60Y6Y4/
 - Voltaic P126, https://www.adafruit.com/product/5366
+
+### Power Supply:
+
+**Safety note: There are hazards involved with working with electricity and batteries! Make sure you know what you are doing, and don't do anything you are not comfortable with. These notes are for information purposes only.**
+
+I built a custom DC power supply that powered by a power tool battery pack. A benchtop power supply would be simpler, assuming you have access to an AC power outlet. I've used this before: https://www.amazon.com/gp/product/B07512KQDW.
+
+Parts for the custom battery-powered power supply:
+- 3-7/8" X 5-7/8" X 2-1/16" Snap Together Plastic Enclosures 100 x 150 x 50mm Enclosure, https://www.mpja.com/3-7_8-X-5-7_8-X-2-1_16-Snap-Together-Plastic-Enclosures/productinfo/37293%20BX/
+- Red, Black & Green 30 Amp Binding Posts Set, https://www.mpja.com/Red-Black-38-Green-30-Amp-Binding-Posts-Set/productinfo/36363+BP/
+- UCTRONICS U6229 variable power supply (I think this is more generally known as a "XYS3580", available under other brand and model numbers): https://www.amazon.com/dp/B0861LGM15
+- Power Wheels tool battery adapter with inline switch and fuse
+  - Makita version: https://www.amazon.com/dp/B09HTNR9F3
+  - **Get one compatible with your power tool batteries!**
+
