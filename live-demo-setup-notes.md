@@ -1,7 +1,7 @@
 # Notes on setting things up for the live demo
 The poster presentation included a live demo of EL of two small 2-10 W modules. A laptop connect to a Raspberry Pi Zero 2 W using remote desktop for control and display.
 
-![live demo setup photo](/images/live_demo_setup_photo2.jpg)
+<img src="/images/live_demo_setup_photo2.jpg" width = "500">
 
 Start with the standard 32-bit Raspberry OS (tested with Raspbian GNU/Linux 11 (bullseye)).
 
