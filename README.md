@@ -1,6 +1,6 @@
 # EL with the Raspberry Pi Camera Module 3 - Supporting Files
 
-This repo contains supporting files for the NREL PVRW 2023 poster, _EL with the Raspberry Pi Camera Module 3_, by Will Hobbs and Tim Silverman. 
+This repo contains supporting files for the NREL PVRW 2023 poster, _EL with the Raspberry Pi Camera Module 3_, by Will Hobbs and Tim Silverman ([preprint](Rpi_Camera_3_EL_PVRW_Hobbs_Silverman_Preprint.pdf)). 
 
 Notes on the software/network settings used for the live EL demo are in [live-demo-setup-notes.md](live-demo-setup-notes.md).
 
